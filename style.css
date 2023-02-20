@@ -10,11 +10,52 @@ body{
     flex-direction: column; /*Definindo a direção*/
 }
 
+#titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 5vh;
+    /* width: 50px; */
+    color: black;
+}
+
 #line-one {
-    margin-left: 10px;
     display: flex; /*Muda a disposição da tela por linhas*/
     flex-direction: row;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+    margin: 0px;   
 }
 
+#icon-1 {
+    padding-right: 0.5em;}
+
+#line-two {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;   
+}
+
+#icon-2 {
+    padding-right: 0.5em;}
+
+#line-three {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;    
+}
+
+#icon-3 {
+    padding-right: 0.5em;}
+
+#titulo-info {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
