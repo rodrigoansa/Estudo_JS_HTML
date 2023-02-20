@@ -11,8 +11,10 @@ body{
 }
 
 #line-one {
+    margin-left: 10px;
     display: flex; /*Muda a disposição da tela por linhas*/
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
+
