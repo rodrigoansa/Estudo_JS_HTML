@@ -16,8 +16,9 @@ body{
     align-items: center;
     background-color: white;
     height: 5vh;
-    /* width: 50px; */
+    width: 30vh;
     color: black;
+    margin-left: 30%;
 }
 
 #line-one {
@@ -53,9 +54,36 @@ body{
 #icon-3 {
     padding-right: 0.5em;}
 
+#rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
 #titulo-info {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 5vh;
+}
+#conteudo {
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(4, 81, 129);
+    color: rgb(255, 255, 255);
+}
+#horario {
+    margin-left: 14%;
+}
+#jogos {
+    margin-left: 7%;
+}
+#canais {
+    margin-right: 5%;
 }
